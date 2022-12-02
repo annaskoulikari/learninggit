@@ -1,3 +1,3 @@
 Introductions
 
-![Learning Git cover](learning_git_cover.png)
+![Learning Git cover](learning_git_cover.png | width=100)
