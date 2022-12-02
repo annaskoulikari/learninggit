@@ -6,9 +6,9 @@ This GitHub repository is meant to be used as a supplementary resource for Learn
 
 Table of Contents:
 
-- [Create a personal access token in GitHub](#create-a-personal-access-token-in-github)
-- [Create an app password in Bitbucket](#create-an-app-password-in-bitbucket)
-- [Set up SSH authentication](#set-up-SSH-authentication)
+- [(Chapter 6) Create a personal access token in GitHub](#create-a-personal-access-token-in-github)
+- [(Chapter 6) Create an app password in Bitbucket](#create-an-app-password-in-bitbucket)
+- [(Chapter 6) Set up SSH authentication](#set-up-SSH-authentication)
 
 ## Set up HTTPS authentication
 
