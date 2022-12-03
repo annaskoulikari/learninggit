@@ -14,21 +14,32 @@ Table of Contents:
 
 ## Create a personal access token in GitHub
 
-In Chapter 6 of Learning Git, you are instructed to choose a hosting service and set up an authentication method. If you choose to use the HTTPS authentication method and you are using GitHub, you must create a personal access token. You may follow the instructions provided below or you may consult the GitHub documentation, for more information see [GitHub Docs - Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
+In Chapter 6 of Learning Git, you are instructed to choose a hosting service and set up an authentication method. If you choose to use the HTTPS authentication method and you are using GitHub, you must create a personal access token.
 
-To create a personal access token:
+The instructions for how to create a personal access token in GitHub are available at: [GitHub Docs - Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 
-1.
+While going through the instructions above, keep in mind the below notes that were presented to you in Chapter 6.
 
-...
+When creating the personal access token in GitHub:
 
-## Create an App password in Bitbucket
+- The Note field represents the name for the personal access token
+- When selecting an expiration time, we recommend choosing at minimum a time period within which you can finish reading and doing the exercises in the entire book. Otherwise, your personal access token may expire while you're going through the book and you will have to go through the process to create a new one to complete the exercise in the book.
+- The scope defines what this token will have access to do or authenticate. For the purpose of this book, you must select at least the repo scope.
+- Save the personal access token in a safe place.
 
-In Chapter 6 of Learning Git, you are instructed to choose a hosting service and set up an authentication method. If you choose to use the HTTPS authentication method and you are using Bitbucket, you must create an app password. You may follow the instructions provided below or you may consult the Bitbucket Support documentation, for more information see [Bitbucket Support - Create an App password](https://support.atlassian.com/bitbucket-cloud/docs/create-an-app-password/).
+## Create an app password in Bitbucket
 
-To create an app password:
+In Chapter 6 of Learning Git, you are instructed to choose a hosting service and set up an authentication method. If you choose to use the HTTPS authentication method and you are using Bitbucket, you must create an app password.
 
-1.
+The instructions for how to create an app password in Bitbucket are available at: [Bitbucket Support - Create an App password](https://support.atlassian.com/bitbucket-cloud/docs/create-an-app-password/).
+
+While going through the instructions above, keep in mind the below notes that were presented to you in Chapter 6.
+
+When creating an app password in Bitbucket:
+
+- The Label field represents the name for the app password.
+- The permissions describe what this app password will be able to authenticate. For the purposes of this book you should select at least the options under the sections, Account, Workspace membership, Projects, Repositories, and Pull Requests.
+- Save the app password in a safe place.
 
 ## Set up SSH authentication
 
