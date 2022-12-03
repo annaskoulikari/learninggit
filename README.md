@@ -6,10 +6,28 @@ This GitHub repository is meant to be used as a supplementary resource for Learn
 
 Table of Contents:
 
+- [(Chapter 1) Installing Git for Microsoft Windows](#installing-git-for-microsoft-windows)
+- [(Chapter 1) Installing Git for macOS](#installing-git-for-macOS)
 - [(Chapter 6) Create a personal access token in GitHub](#create-a-personal-access-token-in-github)
 - [(Chapter 6) Create an app password in Bitbucket](#create-an-app-password-in-bitbucket)
 - [(Chapter 6) Set up SSH authentication](#set-up-SSH-authentication)
 - [(Chapter 12) Creating a pull request (merge request)](#create-a-pull-request-merge-request)
+
+## Installing Git for Microsoft Windows
+
+To install Git for Microsoft Windows, go to [https://git-scm.com/download/win](https://git-scm.com/download/win).
+
+For the Learning Git book, we recommend you use the first and main download option to install Git which provides an installer. To do so, select the **Click here to download** link. This will download an installer which will go through several step-by step instructions to take you through the installation process. You should accept all the default settings as you go through the installer.
+
+By using this download option to install Git, you will also have a version of Git installed which is definitely greater than 2.23 which is the minimum version we recommend in order to have access to all the commands in this book.
+
+## Installing Git for macOS
+
+To install Git for macOS, go to [https://git-scm.com/download/mac](https://git-scm.com/download/mac).
+
+For the Learning Git book, we recommend you use Homebrew to install Git. To install Git using Homebrew, you must have Homebrew installed. If you don’t have Homebrew installed then you must download it from the official Homebrew website [https://brew.sh/](https://brew.sh/).
+
+By using Homebrew to install Git, you will also have a version of Git installed which is definitely greater than 2.23 which is the minimum version we recommend in order to have access to all the commands in this book.
 
 ## Set up HTTPS authentication
 
