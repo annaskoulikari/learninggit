@@ -9,7 +9,7 @@ Table of Contents:
 - [(Chapter 6) Create a personal access token in GitHub](#create-a-personal-access-token-in-github)
 - [(Chapter 6) Create an app password in Bitbucket](#create-an-app-password-in-bitbucket)
 - [(Chapter 6) Set up SSH authentication](#set-up-SSH-authentication)
-- [(Chapter 12) Creating a pull request (merge request)](#create-a-pull-request-merge-request))
+- [(Chapter 12) Creating a pull request (merge request)](#create-a-pull-request-merge-request)
 
 ## Set up HTTPS authentication
 
