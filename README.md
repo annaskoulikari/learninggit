@@ -17,7 +17,7 @@ Table of Contents:
 
 To install Git for Microsoft Windows, go to [https://git-scm.com/download/win](https://git-scm.com/download/win).
 
-For the Learning Git book, we recommend you use the first and main download option to install Git which provides an installer. To do so, select the **Click here to download** link. This will download an installer which will go through several step-by step instructions to take you through the installation process. You should accept all the default settings as you go through the installer.
+For the Learning Git book, we recommend you use the first and main download option to install Git which provides an installer. To do so, select the **Click here to download** link. This will download an installer that you will use to go through the step-by step installation process. You should accept all the default settings as you go through the installer.
 
 By using this download option to install Git, you will also have a version of Git installed which is definitely greater than 2.23 which is the minimum version we recommend in order to have access to all the commands in this book.
 
