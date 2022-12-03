@@ -9,6 +9,7 @@ Table of Contents:
 - [(Chapter 6) Create a personal access token in GitHub](#create-a-personal-access-token-in-github)
 - [(Chapter 6) Create an app password in Bitbucket](#create-an-app-password-in-bitbucket)
 - [(Chapter 6) Set up SSH authentication](#set-up-SSH-authentication)
+- [(Chapter 12) Creating a pull request (merge request)](#create-a-pull-request-merge-request))
 
 ## Set up HTTPS authentication
 
@@ -56,3 +57,21 @@ GitLab
 Bitbucket
 
 - [Bitbucket Support - Set up an SSH key](https://support.atlassian.com/bitbucket-cloud/docs/set-up-an-ssh-key/)
+
+## Create a pull request (merge request)
+
+In Chapter 12 of Learning Git, you are instructed to create a pull request in the `rainbow-remote` repository. For more information on how to do this in each hosting service, see:
+
+GitHub
+
+- [GitHub Docs - Creating a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
+
+GitLab
+
+- [GitLab Docs - Creating merge requests](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
+
+Additional notes: I recommend you use the instructions provided in the [From the merge request list](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html#from-the-merge-request-list) section.
+
+Bitbucket
+
+- [Bitbucket Support - Create a pull request](https://support.atlassian.com/bitbucket-cloud/docs/create-a-pull-request/)
