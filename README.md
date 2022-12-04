@@ -29,7 +29,7 @@ By using this download option to install Git, you will also have a version of Gi
 | 4   | On the **Choosing the default editor used by Git** screen, accept the default location and select **Next**.                      |
 | 5   | On the **Adjusting the name of the initial branch in new repositories** screen, accept the default location and select **Next**. |
 | 6   | On the **Adjusting your PATH environment** screen, accept the default location and select **Next**.                              |
-| 7   | On the \***\*Configuring the line ending conversions** screen, accept the default and select **Next**.                           |
+| 7   | On the **Configuring the line ending conversions** screen, accept the default and select **Next**.                               |
 | 8   | On the **Configuring the terminal emulator to use with Git Bash** screen, accept the default and select **Next**.                |
 | 9   | On the **Choose the default behavior of `git pull`** screen, accept the default and select **Next**.                             |
 | 10  | On the **Choose a credential helper** screen, accept the default and select **Next**.                                            |
