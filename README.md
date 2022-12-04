@@ -30,7 +30,7 @@ For the Learning Git book, we recommend you use Homebrew to install Git. To inst
 By using Homebrew to install Git, you will also have a version of Git installed which is definitely greater than 2.23 which is the minimum version we recommend in order to have access to all the commands in this book.
 
 |     | Follow Along #-#                                                                                                                                                                                         |
-| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| --- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | Go to the Homebrew website [https://brew.sh/](https://brew.sh/) and copy the command to install Homebrew.                                                                                                |
 | 2   | Open a command line window and paste the command to install Homebrew where the cursor is. The directory location in the command line is not important when you execute this command in step 3.           |
 | 3   | $ <strong>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\</strong><br>===> Checking for `sudo` access (which may request your password)...<br>Password: |
