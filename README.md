@@ -37,6 +37,13 @@ By using this download option to install Git, you will also have a version of Gi
 | 12  | On the **Configuring experimental options** screen, accept the default and select **Next**.                                      |
 | 13  | On the **Completing the Git Setup Wizard** screen, select **Finish**.                                                            |
 
+Now that you have finished going through the steps of the installer you should have Git installed on your computer. To check whether Git successfully installed, you should open a Git Bash command line window and use the git version command to check what version of Git you have installed on your computer. Let’s do this in Follow Along #-#.
+
+|     | Follow Along #-#                                                                 |
+| --- | :------------------------------------------------------------------------------- |
+| 1   | Search for the Git Bash command line application and open a command line window. |
+| 2   | \$ **git version**<br>git version 2.38.1.windows.1                               |
+
 ## Installing Git for macOS
 
 To install Git for macOS, go to [https://git-scm.com/download/mac](https://git-scm.com/download/mac).
