@@ -21,21 +21,21 @@ For the Learning Git book, we recommend you use the first and main download opti
 
 By using this download option to install Git, you will also have a version of Git installed which is definitely greater than 2.23 which is the minimum version we recommend in order to have access to all the commands in this book.
 
-|     | Follow Along #-#                                                                                                         |
-| --- | :----------------------------------------------------------------------------------------------------------------------- |
-| 1   | On the Select Destination Location screen, accept the default location and select Next.                                  |
-| 2   | On the Select Components screen, accept the default location and select Next.                                            |
-| 3   | On the Select Start Menu Folder screen, accept the default location and select Next.                                     |
-| 4   | On the Choosing the default editor used by Git screen, accept the default location and select Next.                      |
-| 5   | On the Adjusting the name of the initial branch in new repositories screen, accept the default location and select Next. |
-| 6   | On the Adjusting your PATH environment screen, accept the default location and select Next.                              |
-| 7   | On the Configuring the line ending conversions screen, accept the default and select Next.                               |
-| 8   | On the Configuring the terminal emulator to use with Git Bash screen, accept the default and select Next.                |
-| 9   | On the Choose the default behavior of `git pull` screen, accept the default and select Next.                             |
-| 10  | On the Choose a credential helper screen, accept the default and select Next.                                            |
-| 11  | On the Configuring extra options screen, accept the default and select Next.                                             |
-| 12  | On the Configuring experimental options screens, accept the default and select Next.                                     |
-| 13  | On the Completing the Git Setup Wizard, select Finish.                                                                   |
+|     | Follow Along #-#                                                                                                                 |
+| --- | :------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | On the **Select Destination Location** screen, accept the default location and select **Next**.                                  |
+| 2   | On the **Select Components** screen, accept the default location and select **Next**.                                            |
+| 3   | On the **Select Start Menu Folder** screen, accept the default location and select **Next**.                                     |
+| 4   | On the **Choosing the default editor used by Git** screen, accept the default location and select **Next**.                      |
+| 5   | On the **Adjusting the name of the initial branch in new repositories** screen, accept the default location and select **Next**. |
+| 6   | On the **Adjusting your PATH environment** screen, accept the default location and select **Next**.                              |
+| 7   | On the \***\*Configuring the line ending conversions** screen, accept the default and select **Next**.                           |
+| 8   | On the **Configuring the terminal emulator to use with Git Bash** screen, accept the default and select **Next**.                |
+| 9   | On the **Choose the default behavior of `git pull`** screen, accept the default and select **Next**.                             |
+| 10  | On the **Choose a credential helper** screen, accept the default and select **Next**.                                            |
+| 11  | On the **Configuring extra options** screen, accept the default and select **Next**.                                             |
+| 12  | On the **Configuring experimental options** screen, accept the default and select **Next**.                                      |
+| 13  | On the **Completing the Git Setup Wizard** screen, select **Finish**.                                                            |
 
 ## Installing Git for macOS
 
