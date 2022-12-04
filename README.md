@@ -15,11 +15,15 @@ Table of Contents:
 
 ## Installing Git for Microsoft Windows
 
-To install Git for Microsoft Windows, go to [https://git-scm.com/download/win](https://git-scm.com/download/win).
+To install Git, go to the official Git website downloads page for Microsoft Windows [https://git-scm.com/download/win](https://git-scm.com/download/win). This page presents several ways you can download Git.
 
 For the Learning Git book, we recommend you use the first and main download option to install Git which provides an installer. To do so, select the **Click here to download** link. This will download an installer that you will use to go through the step-by step installation process. You should accept all the default settings as you go through the installer.
 
+<img src="download_git_microsoft_windows.png" width=650>
+
 By using this download option to install Git, you will also have a version of Git installed which is definitely greater than 2.23 which is the minimum version we recommend in order to have access to all the commands in this book.
+
+The installer will go through step-by step instructions to take you through the installation process. You should accept all the default settings as you go through the installer. In Follow Along #-#, we present the 13 steps the installer will go through and instruct you to select the default options.
 
 |     | Follow Along #-#                                                                                                                 |
 | --- | :------------------------------------------------------------------------------------------------------------------------------- |
@@ -44,13 +48,23 @@ Now that you have finished going through the steps of the installer you should h
 | 1   | Search for the Git Bash command line application and open a command line window. |
 | 2   | \$ **git version**<br>git version 2.38.1.windows.1                               |
 
+What to notice:
+
+- The output of the `git version` command shows you what version of Git you have installed on your computer.
+
+You have completed Git installation.
+
 ## Installing Git for macOS
 
-To install Git for macOS, go to [https://git-scm.com/download/mac](https://git-scm.com/download/mac).
+To install Git, go to the official Git website downloads page for macOS [https://git-scm.com/download/mac](https://git-scm.com/download/mac). This page presents several ways you can download Git.
 
-For the Learning Git book, we recommend you use Homebrew to install Git. To install Git using Homebrew, you must have Homebrew installed. If you don’t have Homebrew installed then you must download it from the official Homebrew website [https://brew.sh/](https://brew.sh/).
+For the Learning Git book, we recommend you use Homebrew to install Git.
+
+<img src="download_git_microsoft_macos.png" width=650>
 
 By using Homebrew to install Git, you will also have a version of Git installed which is definitely greater than 2.23 which is the minimum version we recommend in order to have access to all the commands in this book.
+
+To install Git using Homebrew, you must have Homebrew installed. If you don’t have Homebrew installed then go to Follow Along #-#.
 
 |     | Follow Along #-#                                                                                                                                                                                         |
 | --- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -60,6 +74,19 @@ By using Homebrew to install Git, you will also have a version of Git installed 
 | 4   | When the command prompts you to enter a password, enter the password for your user on your computer.                                                                                                     |
 | 5   | To complete the installation press Enter.                                                                                                                                                                |
 | 6   | \$ **brew --version**<br>Homebrew 3.6.7<br>Homebrew/homebrew-core (git revision 4917c76d4d2; last commit 2022-10-29)                                                                                     |
+
+What to notice:
+
+- In step 6, the output should show what version of Homebrew you have installed.
+
+Now that Homebrew is installed, the next step is to install Git. In order to do that, you will use the `brew install git` command. And afterwards, you will use the `git version` command to check what version of Git you installed on your computer. Let’s carry all of this out in Follow Along #-#.
+
+|     | Follow Along #-#                         |
+| --- | :--------------------------------------- |
+| 1   | \$ **brew install git**                  |
+| 2   | \$ **git version**<br>git version 2.38.1 |
+
+You have completed Git installation.
 
 ## Set up HTTPS authentication
 
