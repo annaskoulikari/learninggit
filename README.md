@@ -60,7 +60,7 @@ To install Git, go to the official Git website downloads page for macOS [https:/
 
 For the Learning Git book, we recommend you use Homebrew to install Git.
 
-<img src="download_git_microsoft_macos.png" width=650>
+<img src="download_git_macos.png" width=650>
 
 By using Homebrew to install Git, you will also have a version of Git installed which is definitely greater than 2.23 which is the minimum version we recommend in order to have access to all the commands in this book.
 
