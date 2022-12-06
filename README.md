@@ -105,6 +105,8 @@ When creating the personal access token in GitHub:
 - The scope defines what this token will have access to do or authenticate. For the purpose of this book, you must select at least the repo scope.
 - Save the personal access token in a safe place.
 
+> Note: Once you create the authentication credential, for security reasons, you will only see it once. Therefore, you must save it in a secure place. Afterwards, you will only be able to see some details about it, but not the authentication credential itself.
+
 ## Create an app password in Bitbucket
 
 In Chapter 6 of Learning Git, you are instructed to choose a hosting service and set up an authentication method. If you choose to use the HTTPS authentication method and you are using Bitbucket, you must create an app password.
@@ -118,6 +120,8 @@ When creating an app password in Bitbucket:
 - The Label field represents the name for the app password.
 - The permissions describe what this app password will be able to authenticate. For the purposes of this book you should select at least the options under the sections, Account, Workspace membership, Projects, Repositories, and Pull Requests.
 - Save the app password in a safe place.
+
+> Note: Once you create the authentication credential, for security reasons, you will only see it once. Therefore, you must save it in a secure place. Afterwards, you will only be able to see some details about it, but not the authentication credential itself.
 
 ## Set up SSH authentication
 
