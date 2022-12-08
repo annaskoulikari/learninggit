@@ -11,6 +11,7 @@ Table of Contents:
 - [(Chapter 6) Create a personal access token in GitHub](#create-a-personal-access-token-in-github)
 - [(Chapter 6) Create an app password in Bitbucket](#create-an-app-password-in-bitbucket)
 - [(Chapter 6) Set up SSH authentication](#set-up-SSH-authentication)
+- [(Chapter 7) Create a remote repository](#create-a-remote-repository)
 - [(Chapter 12) Creating a pull request (merge request)](#create-a-pull-request-merge-request)
 
 ## Installing Git for Microsoft Windows
@@ -138,6 +139,25 @@ GitLab
 Bitbucket
 
 - [Bitbucket Support - Set up an SSH key](https://support.atlassian.com/bitbucket-cloud/docs/set-up-an-ssh-key/)
+
+## Create a remote repository
+
+In Chapter 7 of Learning Git, you are instructed to create a remote repository. For more information on how to do this in each hosting service, see:
+
+GitHub
+
+- [GitHub Docs - Create a repo](https://docs.github.com/en/get-started/quickstart/create-a-repo)
+
+GitLab
+
+- [GitLab Docs - Create a blank project](https://docs.github.com/en/get-started/quickstart/create-a-repo)
+
+Additional notes: In GitLab a repository is referred to as a "project".
+
+Bitbucket
+
+- [Bitbucket Support - Create a repository](https://support.atlassian.com/bitbucket-cloud/docs/create-a-repository/)
+- [Bitbucket Support - Create a repository in Bitbucket Cloud](https://support.atlassian.com/bitbucket-cloud/docs/create-a-repository-in-bitbucket-cloud/)
 
 ## Create a pull request (merge request)
 
