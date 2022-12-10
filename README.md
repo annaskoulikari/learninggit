@@ -140,6 +140,67 @@ Bitbucket
 
 - [Bitbucket Support - Set up an SSH key](https://support.atlassian.com/bitbucket-cloud/docs/set-up-an-ssh-key/)
 
+### Example
+
+I will provide a general example with additional notes, however if you get stuck or the general example does not apply in your case, then I recommend consulting the official hosting service documentation
+
+The three main steps to setting up SSH authentication are:
+
+1. Create an SSH key pair on your computer
+2. Add the private SSH key to the SSH agent
+3. Add the public SSH key to the hosting service account.
+
+#### Step 1: Create an SSH key pair on your computer
+
+There are different types of SSH keys, some are considered safer than others and each hosting service documents which SSH key types it accepts.
+
+As of writing this book, an SSH key type that is accepted by all three major hosting services and which is considered the safest is `ed25519` therefore this is the type that we will use in the Rainbow project example in this book. However, you may choose to use another type as long as it is accepted by your hosting service of choice.
+
+The command you will use to create the SSH key pair is the `ssh-keygen -t <ssh-key-type> -C “<email>”`. The `-t` option stands for “type” and the `-C` option indicates the label. You will use the email you use for your hosting service account as the label.
+
+Once you execute this command, you will be prompted to save the keys in the default location. The default location will be in your current user directory which as we mentioned in Chapter 1 is indicated by the tilde ~ sign. In this directory, the command will create a new hidden directory called `.ssh`. Recall that in Chapter 1, we learnt about hidden files and directories and how to view them.
+
+> Note: If you’re not sure if you have ever set up SSH in the past on your computer, you may go to your current user directory and check if you have the `.ssh` hidden directory.
+
+Inside this hidden `.ssh` directory, the command will create two files, one file for the private SSH key, in the example in this book it will be `id_ed25519`. Another file for the public SSH key, in the example in this book it will be `id_ed25519.pub`. Look at Figure #-# for an example of the `.ssh` directory and the files that will be created.
+
+<img src="ssh_directory.png" width=650>
+
+You should accept this default location and then you will be prompted to enter a passphrase (or in other words a password). The passphrase is optional however it is highly recommended that you use one for security reasons.
+
+If you have chosen to set up the SSH authentication method, then continue onto Follow Along #-# to complete the first step in setting up SSH.
+
+|                                                                                                | Follow Along #-#                                                                                                                                                                                  |
+| ---------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1                                                                                              | \$ **ssh-keygen -t ed25519 -C “gitlearningjourney@gmail.com”**<br>Generating public/private ed25519 key pair.<br><br>Enter file in which to save the key (/Users/annaskoulikari/.ssh/id_ed25519): |
+| 2                                                                                              | \$ Select Enter to save the key in the default location. In our example the default location is `/Users/annaskoulikari/.ssh/id_ed25519`<br>                                                       |
+| Created directory '/Users/annaskoulikari/.ssh'.<br>Enter passphrase (empty for no passphrase): |
+
+Follow Along #-#
+1
+\$ ssh-keygen -t ed25519 -C “gitlearningjourney@gmail.com”
+Generating public/private ed25519 key pair.
+
+Enter file in which to save the key (/Users/annaskoulikari/.ssh/id_ed25519):
+2
+Select Enter to save the key in the default location. In our example the default location is /Users/annaskoulikari/.ssh/id_ed25519
+Created directory '/Users/annaskoulikari/.ssh'.
+Enter passphrase (empty for no passphrase):
+
+3
+Enter a passphrase (or in other words password) for your SSH key.
+
+Enter same passphrase again:
+4
+Re-enter the same passphrase again in order to confirm it.
+Your identification has been saved in /Users/annaskoulikari/.ssh/id_ed25519
+Your public key has been saved in /Users/annaskoulikari/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:2ye4Q/S10thZsBM6PZgdLkTJbWCmMygMCXoB8j6gvno gitlearningjourney@gmail.com
+
+5
+Go to your current user directory, change your settings or enable to view hidden files and directories, find the .ssh directory and look at the contents of the directory.
+
 ## Create a remote repository
 
 In Chapter 7 of Learning Git, you are instructed to create a remote repository. For more information on how to do this in each hosting service, see:
