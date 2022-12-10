@@ -67,14 +67,14 @@ By using Homebrew to install Git, you will also have a version of Git installed 
 
 To install Git using Homebrew, you must have Homebrew installed. If you don’t have Homebrew installed then go to Follow Along #-#.
 
-|     | Follow Along #-#                                                                                                                                                                                         |
-| --- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | Go to the Homebrew website [https://brew.sh/](https://brew.sh/) and copy the command to install Homebrew.                                                                                                |
-| 2   | Open a command line window and paste the command to install Homebrew where the cursor is. The directory location in the command line is not important when you execute this command in step 3.           |
-| 3   | $ <strong>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\</strong><br>===> Checking for `sudo` access (which may request your password)...<br>Password: |
-| 4   | When the command prompts you to enter a password, enter the password for your user on your computer.                                                                                                     |
-| 5   | To complete the installation press Enter.                                                                                                                                                                |
-| 6   | \$ **brew --version**<br>Homebrew 3.6.7<br>Homebrew/homebrew-core (git revision 4917c76d4d2; last commit 2022-10-29)                                                                                     |
+|     | Follow Along #-#                                                                                                                                                                                            |
+| --- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Go to the Homebrew website [https://brew.sh/](https://brew.sh/) and copy the command to install Homebrew.                                                                                                   |
+| 2   | Open a command line window and paste the command to install Homebrew where the cursor is. The directory location in the command line is not important when you execute this command in step 3.              |
+| 3   | \$ `<strong>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\</strong><br>===> Checking for`sudo`access (which may request your password)...`<br>`Password:` |
+| 4   | When the command prompts you to enter a password, enter the password for your user on your computer.                                                                                                        |
+| 5   | To complete the installation press Enter.                                                                                                                                                                   |
+| 6   | \$ `**brew --version**`<br>`Homebrew 3.6.7`<br>`Homebrew/homebrew-core (git revision 4917c76d4d2; last commit 2022-10-29)`                                                                                  |
 
 What to notice:
 
@@ -82,10 +82,10 @@ What to notice:
 
 Now that Homebrew is installed, the next step is to install Git. In order to do that, you will use the `brew install git` command. And afterwards, you will use the `git version` command to check what version of Git you installed on your computer. Let’s carry all of this out in Follow Along #-#.
 
-|     | Follow Along #-#                         |
-| --- | :--------------------------------------- |
-| 1   | \$ **brew install git**                  |
-| 2   | \$ **git version**<br>git version 2.38.1 |
+|     | Follow Along #-#                             |
+| --- | :------------------------------------------- |
+| 1   | \$ `**brew install git**`                    |
+| 2   | \$ `**git version**`<br>`git version 2.38.1` |
 
 You have completed Git installation.
 
