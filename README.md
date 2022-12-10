@@ -57,7 +57,7 @@ You have completed Git installation.
 
 ## Installing Git for macOS
 
-<sup>([back to table of contents](#back-to-table-of-contents))</sup>
+<sup>([back to table of contents](#table-of-contents))</sup>
 
 To install Git, go to the official Git website downloads page for macOS [https://git-scm.com/download/mac](https://git-scm.com/download/mac). This page presents several ways you can download Git.
 
