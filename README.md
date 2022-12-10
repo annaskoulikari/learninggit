@@ -47,7 +47,7 @@ Now that you have finished going through the steps of the installer you should h
 |     | Follow Along #-#                                                                 |
 | --- | :------------------------------------------------------------------------------- |
 | 1   | Search for the Git Bash command line application and open a command line window. |
-| 2   | \$ **git version**<br>git version 2.38.1.windows.1                               |
+| 2   | \$ **`git version`**<br>`git version 2.38.1.windows.1`                           |
 
 What to notice:
 
