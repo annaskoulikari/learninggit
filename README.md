@@ -95,6 +95,8 @@ You have completed Git installation.
 
 ## Create a personal access token in GitHub
 
+<sup>([back to table of contents](#table-of-contents))</sup>
+
 In Chapter 6 of Learning Git, you are instructed to choose a hosting service and set up an authentication method. If you choose to use the HTTPS authentication method and you are using GitHub, you must create a personal access token.
 
 The instructions for how to create a personal access token in GitHub are available at: [GitHub Docs - Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
@@ -112,6 +114,8 @@ When creating the personal access token in GitHub:
 
 ## Create an app password in Bitbucket
 
+<sup>([back to table of contents](#table-of-contents))</sup>
+
 In Chapter 6 of Learning Git, you are instructed to choose a hosting service and set up an authentication method. If you choose to use the HTTPS authentication method and you are using Bitbucket, you must create an app password.
 
 The instructions for how to create an app password in Bitbucket are available at: [Bitbucket Support - Create an App password](https://support.atlassian.com/bitbucket-cloud/docs/create-an-app-password/).
@@ -127,6 +131,8 @@ When creating an app password in Bitbucket:
 > Note: Once you create the authentication credential, for security reasons, you will only see it once. Therefore, you must save it in a secure place. Afterwards, you will only be able to see some details about it, but not the authentication credential itself.
 
 ## Set up SSH authentication
+
+<sup>([back to table of contents](#table-of-contents))</sup>
 
 In Chapter 6 of Learning Git, you are instructed to choose a hosting service and set up an authnetication method, either HTTPS or SSH. If you choose to use the SSH authentication method, then you may use the links below that provide instructions for how to set up SSH authentication for each hosting service.
 
@@ -225,6 +231,8 @@ You have completed the three steps to set up the SSH authentication method.
 
 ## Create a remote repository
 
+<sup>([back to table of contents](#table-of-contents))</sup>
+
 In Chapter 7 of Learning Git, you are instructed to create a remote repository. For more information on how to do this in each hosting service, see:
 
 GitHub
@@ -243,6 +251,8 @@ Bitbucket
 - [Bitbucket Support - Create a repository in Bitbucket Cloud](https://support.atlassian.com/bitbucket-cloud/docs/create-a-repository-in-bitbucket-cloud/)
 
 ## Create a pull request (merge request)
+
+<sup>([back to table of contents](#table-of-contents))</sup>
 
 In Chapter 12 of Learning Git, you are instructed to create a pull request in the `rainbow-remote` repository. For more information on how to do this in each hosting service, see:
 
