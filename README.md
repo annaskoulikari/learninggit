@@ -4,7 +4,7 @@
 
 This GitHub repository is meant to be used as a supplementary resource for Learning Git: A Hands-on Approach to Understanding the Basics of Git by Anna Skoulikari.
 
-Table of Contents:
+## Table of Contents:
 
 - [(Chapter 1) Installing Git for Microsoft Windows](#installing-git-for-microsoft-windows)
 - [(Chapter 1) Installing Git for macOS](#installing-git-for-macOS)
@@ -55,7 +55,7 @@ What to notice:
 
 You have completed Git installation.
 
-## Installing Git for macOS
+## Installing Git for macOS ([back to table of contents](#back-to-table-of-contents))
 
 To install Git, go to the official Git website downloads page for macOS [https://git-scm.com/download/mac](https://git-scm.com/download/mac). This page presents several ways you can download Git.
 
