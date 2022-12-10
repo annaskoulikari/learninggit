@@ -178,6 +178,49 @@ If you have chosen to set up the SSH authentication method, then continue onto F
 | 4   | Re-enter the same passphrase again in order to confirm it.<br>`Your identification has been saved in /Users/annaskoulikari/.ssh/id_ed25519`<br>`Your public key has been saved in /Users/annaskoulikari/.ssh/id_ed25519.pub`<br>`The key fingerprint is: SHA256:2ye4Q/S10thZsBM6PZgdLkTJbWCmMygMCXoB8j6gvno gitlearningjourney@gmail.com` |
 | 5   | Go to your current user directory, change your settings or enable to view hidden files and directories, find the `.ssh` directory and look at the contents of the directory.                                                                                                                                                              |
 
+Now that you have created your SSH key pair, you can continue on to step 2 to add the private SSH key to the SSH agent.
+
+#### Step 2: Add the private SSH key to the SSH agent
+
+When you created the SSH key pair in step 1, you entered a passphrase. Normally, every time you use SSH to connect to a remote repository, you will have to enter the passphrase.
+
+To avoid having to do this, you can add the private SSH key to the SSH agent. The SSH agent will then manage your key and remember your passphrase for you.
+
+There are two parts to adding the private SSH key to the SSH agent.
+
+First, you will use the `eval “$(ssh-agent -s)”` command to start the SSH agent in the background.
+
+Next, you will add the private key to the SSH agent by using the `ssh-add` command and then passing in the path to the SSH key file. Therefore the command will be `ssh-add ~/.ssh/<ssh_private_key_file_name>`.
+
+Go to Follow Along #-# to add the private SSH key to the SSH agent.
+
+|     | Follow Along #-#                                                                                                                             |
+| --- | :------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | \$ **`eval "$(ssh-agent -s)"`**<br>`Agent pid 26054`                                                                                         |
+| 2   | \$ **`ssh-add ~/.ssh/id_ed25519`**<br>`Enter passphrase for /Users/annaskoulikari/.ssh/id_ed25519:`                                          |
+| 3   | \$ Enter the passphrase you created in step 1.<br><br>`Identity added: /Users/annaskoulikari/.ssh/id_ed25519 (gitlearningjourney@gmail.com)` |
+
+Now that you’ve completed the second step to set up the SSH authentication method, you can go onto the final step which is to add the public SSH key to your account on the hosting service.
+
+#### Step 3: Add the public SSH key to the hosting service account
+
+In step 1, we saw that a hidden directory called `.ssh` was created in the current user directory and it contained two files, one for your private SSH key and one for your public SSH key.
+
+In this step, you will copy the contents of the public SSH key file and you will add it to your account in the hosting service.
+
+To copy the contents of the public SSH key file you may either use the command line or go directly to the file in our file system and open it using a text editor. The name of the file in the example in this book is `id_25519.pub`.
+
+Next, you will follow the instructions on the documentation of your chosen hosting service in order to add your key to the hosting service account.
+
+Let’s continue to Follow Along #-# to complete step 3 of the SSH setup process.
+
+|     | Follow Along #-#                                                                                                                                                                                                                                                     |
+| --- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Copy the contents of your public SSH key. You may do this by finding the file in your filesystem and opening it using a text editor to copy its contents. Or you may do this by using commands in the command line to copy the contents of the public SSH key files. |
+| 2   | Follow the steps on the hosting service documentation to save your public SSH key in your hosting service account.                                                                                                                                                   |
+
+You have completed the three steps to set up the SSH authentication method.
+
 ## Create a remote repository
 
 In Chapter 7 of Learning Git, you are instructed to create a remote repository. For more information on how to do this in each hosting service, see:
