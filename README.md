@@ -10,7 +10,7 @@ This GitHub repository is meant to be used as a supplementary resource for Learn
 - [(Chapter 1) Installing Git for macOS](#installing-git-for-macOS)
 - [(Chapter 6) Create a personal access token in GitHub](#create-a-personal-access-token-in-github)
 - [(Chapter 6) Create an app password in Bitbucket](#create-an-app-password-in-bitbucket)
-- [(Chapter 6) Set up SSH authentication](#set-up-SSH-authentication)
+- [(Chapter 6) Set up SSH access](#set-up-SSH-access)
 - [(Chapter 7) Create a remote repository](#create-a-remote-repository)
 - [(Chapter 12) Creating a pull request (merge request)](#create-a-pull-request-merge-request)
 
@@ -91,19 +91,17 @@ Now that Homebrew is installed, the next step is to install Git. In order to do 
 
 You have completed Git installation.
 
-## Set up HTTPS authentication
+## Set up authentication credentials to connect over HTTPS
 
 ## Create a personal access token in GitHub
 
 <sup>([back to table of contents](#table-of-contents))</sup>
 
-In Chapter 6 of Learning Git, you are instructed to choose a hosting service and set up an authentication method. If you choose to use the HTTPS authentication method and you are using GitHub, you must create a personal access token.
+In Chapter 6 of Learning Git, you are instructed to choose a hosting service and set up authentication details to connect to remote repositories over the HTTPS or SSH protocols. If you choose to use the HTTPS protocol and you are using GitHub, you must create a personal access token.
 
 The instructions for how to create a personal access token in GitHub are available at: [GitHub Docs - Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 
-While going through the instructions above, keep in mind the below notes that were presented to you in Chapter 6.
-
-When creating the personal access token in GitHub:
+When creating the personal access token in GitHub, keep in mind the below notes:
 
 - The Note field represents the name for the personal access token
 - When selecting an expiration time, we recommend choosing at minimum a time period within which you can finish reading and doing the exercises in the entire book. Otherwise, your personal access token may expire while you're going through the book and you will have to go through the process to create a new one to complete the exercise in the book.
@@ -116,13 +114,11 @@ When creating the personal access token in GitHub:
 
 <sup>([back to table of contents](#table-of-contents))</sup>
 
-In Chapter 6 of Learning Git, you are instructed to choose a hosting service and set up an authentication method. If you choose to use the HTTPS authentication method and you are using Bitbucket, you must create an app password.
+In Chapter 6 of Learning Git, you are instructed to choose a hosting service and set up the authentication details to connect to remote repositories over the HTTPS or SSH protocols. If you choose to connect over HTTPS and you are using Bitbucket, you must create an app password.
 
 The instructions for how to create an app password in Bitbucket are available at: [Bitbucket Support - Create an App password](https://support.atlassian.com/bitbucket-cloud/docs/create-an-app-password/).
 
-While going through the instructions above, keep in mind the below notes that were presented to you in Chapter 6.
-
-When creating an app password in Bitbucket:
+When creating an app password in Bitbucket: keep in mind the below notes:
 
 - The Label field represents the name for the app password.
 - The permissions describe what this app password will be able to authenticate. For the purposes of this book you should select at least the options under the sections, Account, Workspace membership, Projects, Repositories, and Pull Requests.
@@ -130,11 +126,11 @@ When creating an app password in Bitbucket:
 
 > Note: Once you create the authentication credential, for security reasons, you will only see it once. Therefore, you must save it in a secure place. Afterwards, you will only be able to see some details about it, but not the authentication credential itself.
 
-## Set up SSH authentication
+## Set up SSH access
 
 <sup>([back to table of contents](#table-of-contents))</sup>
 
-In Chapter 6 of Learning Git, you are instructed to choose a hosting service and set up an authnetication method, either HTTPS or SSH. If you choose to use the SSH authentication method, then you may use the links below that provide instructions for how to set up SSH authentication for each hosting service.
+In Chapter 6 of Learning Git, you are instructed to choose a hosting service and set up authentication details to connect to remote repositories over the HTTPS or SSH protocols. If you choose to set up SSH access, then you may use the links below that provide instructions on how to do this for each hosting service.
 
 GitHub
 
@@ -152,7 +148,7 @@ Bitbucket
 
 I will provide a general example with additional notes, however if you get stuck or the general example does not apply in your case, then I recommend consulting the official hosting service documentation
 
-The three main steps to setting up SSH authentication are:
+The three main steps to setting up SSH access are:
 
 1. Create an SSH key pair on your computer
 2. Add the private SSH key to the SSH agent
@@ -208,7 +204,7 @@ Go to Follow Along #-# to add the private SSH key to the SSH agent.
 | 2   | \$ **`ssh-add ~/.ssh/id_ed25519`**<br>`Enter passphrase for /Users/annaskoulikari/.ssh/id_ed25519:`                                          |
 | 3   | \$ Enter the passphrase you created in step 1.<br><br>`Identity added: /Users/annaskoulikari/.ssh/id_ed25519 (gitlearningjourney@gmail.com)` |
 
-Now that you’ve completed the second step to set up the SSH authentication method, you can go onto the final step which is to add the public SSH key to your account on the hosting service.
+Now that you’ve completed the second step to set up the SSH access, you can go onto the final step which is to add the public SSH key to your account on the hosting service.
 
 #### Step 3: Add the public SSH key to the hosting service account
 
@@ -227,7 +223,7 @@ Let’s continue to Follow Along #-# to complete step 3 of the SSH setup process
 | 1   | Copy the contents of your public SSH key. You may do this by finding the file in your filesystem and opening it using a text editor to copy its contents. Or you may do this by using commands in the command line to copy the contents of the public SSH key files. |
 | 2   | Follow the steps on the hosting service documentation to save your public SSH key in your hosting service account.                                                                                                                                                   |
 
-You have completed the three steps to set up the SSH authentication method.
+You have completed the three steps to set up the authentication details to connect over SSH.
 
 ## Create a remote repository
 
