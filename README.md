@@ -87,7 +87,7 @@ Now that Homebrew is installed, the next step is to install Git. In order to do 
 |     | Follow Along #-#                             |
 | --- | :------------------------------------------- |
 | 1   | \$ **`brew install git`**                    |
-| 2   | \$ **g`it version`**<br>`git version 2.38.1` |
+| 2   | \$ **`git version`**<br>`git version 2.38.1` |
 
 You have completed Git installation.
 
