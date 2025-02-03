@@ -13,6 +13,7 @@ This GitHub repository is meant to be used as a supplementary resource for Learn
 - [(Chapter 6) Set up SSH access](#set-up-SSH-access)
 - [(Chapter 7) Create a remote repository](#create-a-remote-repository)
 - [(Chapter 12) Creating a pull request (merge request)](#create-a-pull-request-merge-request)
+- [Page 105 that is missing in Learning Git second release print books](#page-105-that-is-missing-in-learning-git-second-release-print-books)
 
 ## Installing Git for Microsoft Windows
 
@@ -269,3 +270,7 @@ Bitbucket
 - [Bitbucket Support - Create a pull request](https://support.atlassian.com/bitbucket-cloud/docs/create-a-pull-request/)
 
 Additional notes: You may skip the overview content and other sections and go directly to the [Create a pull request](https://support.atlassian.com/bitbucket-cloud/docs/create-a-pull-request/#Create-a-pull-request) section.
+
+## Page 105 that is missing in Learning Git second release print books
+
+<img src="learning_git_second_release_p_105.jpg" width=450>
